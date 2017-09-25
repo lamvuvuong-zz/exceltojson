@@ -1,0 +1,123 @@
+{
+    "info": {
+        "title": "Columns",
+        "help": "You can reorder these columns by clicking on their title in the table",
+        "remove": "Remove this column",
+        "left": "Move this column to left",
+        "right": "Move this column to right"
+    },
+    "confirm": {
+        "skip": "Do not show this confirmation again",
+        "text": "Are you sure?",
+        "no": "Dismiss",
+        "yes": "Confirm"
+    },
+    "error": {
+        "title": "Error",
+        "dismiss": "Dismiss",
+        "network": "Sorry we cannot process your request at the moment."
+    },
+    "edit": {
+        "dismiss": "Dismiss",
+        "submit": "Submit"
+    },
+    "theme": {
+        "title": "Themes",
+        "tab": "Tab",
+        "label": "Label",
+        "value": "Value",
+        "highlight": "Highlight",
+        "normal": "Normal"
+    },
+    "language": {
+        "en": "English",
+        "ja": "日本語",
+        "zhcn": "简体中文",
+        "zhtw": "繁体中文",
+        "kr": "한국",
+        "note": "Change language will cause page reload"
+    },
+    "user": {
+        "tfa": "Security",
+        "tfa-enabled-status": "2FA is Enabled",
+        "tfa-enabled-description": "2FA is enabled for this account.",
+        "tfa-disabled-status": "2FA is Not Enabled yet",
+        "tfa-disabled-description": "Click to enable 2FA.",
+        "tfa-outdated-status": "2FA is Outdated",
+        "tfa-outdated-description": "Click to enable 2FA again.",
+        "status": "Account Status",
+        "status-pending-title": "Pending",
+        "status-pending-description": "Click to verify your account.",
+        "status-approved-title": "Verified",
+        "status-approved-description": "This account is fully verified.",
+        "status-submitted-title": "Submitted",
+        "status-submitted-description": "We are checking your documents.",
+        "status-declined-title": "Declined",
+        "status-declined-description": "Click to see detail.",
+        "status-banned-title": "Banned",
+        "status-banned-description": "Click to see detail.",
+        "currency": "Home Currency",
+        "currency-description": "You can trade in BTC{{ currency }} with zero fee.",
+        "info-view-all": "Go to Profile",
+        "info-email": "Email",
+        "info-id": "ID",
+        "info-country": "Country",
+        "info-since": "Joined Since",
+        "info-type": "Type",
+        "info-type-individual": "Individual",
+        "info-type-corporate": "Corporate",
+        "sign-out": "Sign Out",
+        "sign-in": "Sign In",
+        "sign-up": "Sign Up",
+        "demo": "Enter Demo mode"
+    },
+    "help": {
+        "section-help": "Help",
+        "intro-title": "Take a Tour",
+        "intro-description": "Coming Soon",
+        "hint-title": "Toggle Hints",
+        "hint-description": "Coming Soon",
+        "support-title": "Support",
+        "support-description": "On-screen Help & Contact Us",
+        "section-links": "Handy Links",
+        "faq-title": "Frequently Asked Questions",
+        "faq-description": "support.quoine.com↗",
+        "fee-title": "Fee Structure",
+        "fee-description": "www.quoine.com/fees↗",
+        "footer": "You can always reach us directly via the following email:"
+    },
+    "navigation": {
+        "home": "home",
+        "home-summary": "Account Summary",
+        "home-deposit": "Fund My Account",
+        "home-withdraw": "Withdraw Funds",
+        "home-profile": "Profile & Verification",
+        "exchange": "Quick Exchange",
+        "trade": "Trading Dashboard",
+        "settings": "Settings",
+        "settings-application": "Application",
+        "settings-security": "Security (2FA)",
+        "settings-api": "API Access",
+        "help": "HELP CENTER, FEE, FAQ, LANGUAGE and SIGN OUT are now located at top right corner of your app."
+    },
+    "shortcuts": {
+        "home": "Home",
+        "fund": "Fund My Account",
+        "exchange": "Quick Exchange",
+        "trade": "Trading Dashboard"
+    },
+    "pagination": {
+        "current": "Page",
+        "note": "Note: Newly created model are not added if you are not in page 1"
+    },
+    "select": {
+        "placeholder": "Select…"
+    },
+    "link": {
+        "view": "Click to View"
+    },
+    "alerts": {
+        "dismiss": "Dismiss",
+        "guest": "You are in GUEST mode. Some trading features are limited or not available. To try the full trading dashboard, please SIGN UP or ENTER DEMO MODE ⤵"
+    }
+}
