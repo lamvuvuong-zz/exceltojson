@@ -6,6 +6,9 @@ var excel = require('exceljs');
 var fs = require('fs');
 var path = require('path');
 
+var abc = require('./translate/accounts/en/quoine.json');
+console.log(abc['sign-in']['help-email-text']);
+
 app.use(bodyParser.json());
 
 var storage = multer.diskStorage({
@@ -102,6 +105,8 @@ function addProps(obj, arr, val) {
 }
 
 app.get('/',function(req,res){
+    var OAuth2 = require('./OAuth2.js');
+    OAuth2();
     res.sendFile(__dirname + "/index.html");
 });
 
