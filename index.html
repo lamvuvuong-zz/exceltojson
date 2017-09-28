@@ -1,8 +1,24 @@
-<form id        =  "uploadForm"
+<style>
+    div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    p {
+        flex-basis: 50%;
+        margin: 10px 0;
+    }
+    form {
+        margin-top: 50px;
+    }
+</style>
+
+${listFiles}
+
+<form id        =  "downloadForm"
     enctype   =  "multipart/form-data"
-    action    =  "upload"
-    method    =  "post"
+    action    =  "download"
+    onsubmit="document.getElementById('submit').disabled=true;"
 >
-    <input type="file" name="file" accept=".xlsx, .xls" />Upload
-    <input type="submit" value="Upload" name="submit">
+    <input type="text" name="fileid" value="0B6T56ifnnx5FdnhjTExDdEtDc3c" placeholder="File id" />
+    <button type="submit" id="submit">Submit</button>
 </form>
